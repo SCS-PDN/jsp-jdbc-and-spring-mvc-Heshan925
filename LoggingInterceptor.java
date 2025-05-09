@@ -28,7 +28,7 @@ public class LoggingInterceptor implements HandlerInterceptor {
             logger.info("Course registration request: URI=" + uri);
         }
 
-        return true; // continue with the request
+        return true; 
     }
 
     @Override
